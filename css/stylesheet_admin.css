@@ -1,0 +1,122 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+z
+/*Start Media Queries*/
+@media (max-width: 575px) {
+
+    /*Brand Logo*/
+    #nav-brandlogo {
+        background: none;
+        height: 0;
+        width: 0;
+    }
+
+    /*Brand Name*/
+    #nav-brandname {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    /*Navigation Menu Buttons*/
+    .navbar-btn {
+        width: 100px;
+        margin: 8px;
+    }
+
+    /*Navigation Menu Items*/
+    .nav-sm-size {
+        font-size: 0.8em;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /*Brand Logo*/
+    #nav-brandlogo {
+        background: url("../img/amslogo.png") center / contain no-repeat;
+        height: 50px;
+        width: 40px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    /*Brand Name*/
+    #nav-brandname {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    /*Navigation Menu Buttons*/
+    .navbar-btn {
+        width: 150px;
+        margin: 8px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    /*Brand Logo*/
+    #nav-brandlogo {
+        background: url("../img/amslogo.png") center / contain no-repeat;
+        height: 50px;
+        width: 40px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    /*Brand Name*/
+    #nav-brandname {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    /*Navigation Menu Buttons*/
+    .navbar-btn {
+        margin: auto 5px;
+    }
+
+}
+/*End Media Queries*/
+
+/*Start Navigation Bar*/
+.navbar {
+    background-color: #e3f2fd;
+}
+
+.nav-item {
+    align-self: center;
+}
+/*End Navigation Bar*/
+
+/*Start Main Content*/
+#main-content {
+    margin-top: 15px;
+}
+
+.exam-row {
+    border: 1px #a4d9ff solid;
+    margin-bottom: 10px;
+}
+
+.exam-name-row {
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.question {
+    padding: 30px;
+}
+/*End Main Content*/
+
+/*Start Footer*/
+footer {
+    background-color: #e3f2fd;
+}
+/*End Footer*/
+
+.copyright-size {
+    font-size: 0.8rem;
+}

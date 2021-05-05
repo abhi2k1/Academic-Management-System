@@ -1,0 +1,142 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Start Media Queries*/
+@media (max-width: 575px) {
+
+    /*Brand Logo*/
+    #nav-brandlogo {
+        background: none;
+        height: 0;
+        width: 0;
+    }
+
+    /*Brand Name*/
+    #nav-brandname {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    /*Navigation Menu Buttons*/
+    .navbar-btn {
+        width: 100px;
+        margin: 8px;
+    }
+
+    /*Navigation Menu Items*/
+    .nav-sm-size {
+        font-size: 0.8em;
+    }
+
+    /*Carousel Image Size*/
+    .carousel-image-size {
+        height: 200px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /*Brand Logo*/
+    #nav-brandlogo {
+        background: url("../img/amslogo.png") center / contain no-repeat;
+        height: 50px;
+        width: 40px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    /*Brand Name*/
+    #nav-brandname {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    /*Navigation Menu Buttons*/
+    .navbar-btn {
+        width: 150px;
+        margin: 8px;
+    }
+
+    /*Carousel Image Size*/
+    .carousel-image-size {
+        height: 400px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    /*Brand Logo*/
+    #nav-brandlogo {
+        background: url("../img/amslogo.png") center / contain no-repeat;
+        height: 50px;
+        width: 40px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    /*Brand Name*/
+    #nav-brandname {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    /*Navigation Menu Buttons*/
+    .navbar-btn {
+        margin: auto 5px;
+    }
+
+    /*Carousel Image Size*/
+    .carousel-image-size {
+        height: 600px;
+    }
+
+}
+/*End Media Queries*/
+
+/*Start Navigation Bar*/
+.navbar {
+    background-color: #e3f2fd;
+}
+/*End Navigation Bar*/
+
+/*Start Main Content*/
+
+div>h2 {
+    margin-top: 20px;
+}
+
+td>a {
+    color: black;
+}
+
+#about-ams {
+    padding: 30px;
+}
+
+#about {
+    margin: 20px;
+}
+
+#contact-general {
+    margin: 20px;
+}
+
+/*End Main Content*/
+
+/*Start Footer*/
+footer {
+    background-color: #e3f2fd;
+}
+/*End Footer*/
+
+#login-fields-mandatory {
+    font-size: 0.7rem;
+    display: block;
+}
+
+.copyright-size {
+    font-size: 0.8rem;
+}
